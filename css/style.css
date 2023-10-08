@@ -1,0 +1,49 @@
+@import url(/css/reset.css);
+
+#background {
+    background-color: antiquewhite;
+}
+header {
+    background-color: rgb(188, 183, 139);
+    padding: 100px;
+}
+#images__box {
+    height: auto;
+    width: auto;
+    display: flex;
+    justify-content: center;
+}
+#first {
+    position: relative;
+}
+#first:hover {
+    opacity: 0;
+    cursor: pointer;
+    transition-duration: 0.3s;
+}
+#second {
+    position:absolute;
+    transition: opacity 5s ease-in-out;
+}
+main {
+    margin: 70px 300px 0px 300px;
+}
+h1 {
+    font-size:4em;
+    text-align: center;
+    color: rgb(189, 55, 55);
+    font-family:fantasy;
+    -webkit-text-stroke: 2px rgb(0, 0, 0);
+    position: relative;
+}
+h2 {
+    padding: 20px;
+    border-radius: 20px;
+    background-color: rgba(163, 20, 20, 0.319);
+    text-align: center;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 2em;
+}
+p {
+    font-family: Calibri, 'Trebuchet MS', sans-serif;
+}

@@ -2,7 +2,7 @@
 @import url(/css/main.css);
 
 #background {
-    background-color: antiquewhite;
+    background-color: rgb(212, 210, 190);
 }
 header {
     background-color: rgb(188, 183, 139);
@@ -34,4 +34,12 @@ h1 {
 }
 b {
     color: rgb(189, 55, 55);
+}
+footer {
+    background-color: rgb(188, 183, 139);
+    color: rgb(234, 232, 203);
+    padding: 30px;
+    text-align: center;
+    font-size: 2em;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
